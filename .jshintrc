@@ -1,0 +1,27 @@
+{
+	"browser": true,
+	"strict": true,
+	"bitwise": true,
+	"camelcase": true,
+	"curly": true,
+	"eqeqeq": true,
+	"es3": true,
+	"freeze": true,
+	"immed": true,
+	"newcap": true,
+	"noarg": true,
+	"noempty": true,
+	"nonew": true,
+	"plusplus": true,
+	"undef": true,
+	"trailing": true,
+	"latedef": true,
+	"unused": true,
+	"latedef": true,
+	"quotmark": "single",
+	"browser": "true",
+	"globals": {
+		"console": false,
+		"module": true
+	}
+}

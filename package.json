@@ -1,9 +1,37 @@
 {
 	"name": "javascriptProjectStyleGuide",
 	"version": "0.1.0",
+	"description": "Javascript Project Style Guide. You can use this as a template.",
+	"author": "b612lodger <b612lodger@gmail.com>",
+	"tags": [
+		"javascript",
+		"project",
+		"style guide",
+		"template"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/b612lodger/javascriptProjectStyleGuide.git"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://opensource.org/licenses/MIT"
+		}
+	],
+	"bugs": {
+		"url": "https://github.com/b612lodger/javascriptProjectStyleGuide/issues"
+	},
+	"main": "./src/javascriptProjectStyleGuide",
+	"bin": {
+		"javascriptProjectStyleGuide": "./bin/javascriptProjectStyleGuide"
+	},
 	"devDependencies": {
 		"grunt": "~0.4.2",
 		"grunt-contrib-jshint": "~0.6.3",
 		"grunt-contrib-uglify": "~0.2.2"
+	},
+	"scripts": {
+		"test": "node test/test-all.js"
 	}
 }
